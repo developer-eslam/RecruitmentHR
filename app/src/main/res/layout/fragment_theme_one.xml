@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/baabbaba"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:id="@+id/fragmentone"
+    tools:context="com.erp.recruitmentmanagment.recruitmentsystem.themesfragment.ThemeOneFragment">
+
+
+
+    <Button
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/PersonalAppliaction"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/personalapp"
+
+        />
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/EmployeementInformation"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/employeementiformation"
+
+        />
+
+    <Button
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/Educations"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/educations"
+
+        />
+
+    <Button
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/Experience"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/experience"
+
+        />
+
+    <Button
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/Skills"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/skills"
+
+        />
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/Other"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/other"
+
+        />
+</LinearLayout>

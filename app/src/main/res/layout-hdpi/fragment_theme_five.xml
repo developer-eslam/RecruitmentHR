@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:background="@drawable/ugugu"
+    tools:context="com.erp.recruitmentmanagment.recruitmentsystem.themesfragment.ThemeFiveFragment">
+
+    <Button
+        android:layout_width="@dimen/marignleftofbuttonthemefive"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/PersonalAppliaction"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:layout_marginTop="@dimen/marigntop"
+        android:id="@+id/personalapp"
+
+        />
+
+
+
+    <Button
+        android:layout_width="@dimen/marignleftofbuttonthemefive"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/Educations"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/educations"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/marignleftofbuttonthemefive"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/Experience"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/experience"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/marignleftofbuttonthemefive"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/Skills"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/skills"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/marignleftofbuttonthemefive"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/Other"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/other"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/marignleftofbuttonthemefive"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton"
+        android:text="@string/Compine"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/compine"
+
+        />
+</LinearLayout>

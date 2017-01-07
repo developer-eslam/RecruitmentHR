@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Recruitment System</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PersonalAppliaction">البيانات الشخصيه</string>
+    <string name="EmployeementInformation">معلومات التوظيف</string>
+    <string name="Educations">التعليم</string>
+    <string name="Experience">الخبره</string>
+    <string name="Skills">المهارات</string>
+    <string name="Other">اخري</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="marignleft">150dp</dimen>
+    <dimen name="marigntop">15dp</dimen>
+
+    <dimen name="paddingleft">15dp</dimen>
+    <dimen name="paddingright">15dp</dimen>
+    <dimen name="paddingleftoflayout">15dp</dimen>
+    <dimen name="marignleftext">25dp</dimen>
+
+
+    <dimen name="marignleftedittext">10dp</dimen>
+    <dimen name="marignrightedittext">20dp</dimen>
+
+    <dimen name="marginleftspesficparentlayout">7dp</dimen>
+    <dimen name="paddinglefttext">10dp</dimen>
+
+    <dimen name="textsize">15dp</dimen>
+    <dimen name="marginbottom">10dp</dimen>
+    <dimen name="textsizebutton">12dp</dimen>
+    <dimen name="layout_widthofbutton">70dp</dimen>
+    <dimen name="minheightedittext">25dp</dimen>
+
+    <dimen name="marginleftofbutton">50dp</dimen>
+
+    <dimen name="marignleftoftextview">30dp</dimen>
+
+    <dimen name="marigntopedittext">5dp</dimen>
+    <dimen name="marignrightofbutton">10dp</dimen>
+    <dimen name="minheightofbutton">10dp</dimen>
+    <dimen name="matigntopofbutton">5dp</dimen>
+    <dimen name="marignbottomofbutton">12dp</dimen>
+    <dimen name="marignlefttextbutton">12dp</dimen>
+    <dimen name="marignleftofbutton">25dp</dimen>
+
+    <dimen name="marignleftofsublayout">5dp</dimen>
+    <dimen name="marignleftofbuttonthemefive">100dp</dimen>
+    <dimen name="marignleftofbuttonthemefour">100dp</dimen>
+    <dimen name="marignleftofbuttonthemethree">100dp</dimen>
+    <dimen name="marignleftofbuttonthemetwo">100dp</dimen>
+    <dimen name="marignleftsppesficrceyclerview">10dp</dimen>
+    <dimen name="marignleftoflayout">55dp</dimen>
+
+    <dimen name="layout_widthspesficbutton">200dp</dimen>
+
+</resources>

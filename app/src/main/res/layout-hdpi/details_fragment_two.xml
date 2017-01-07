@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context=".personalapplcation.personalappthemetwo"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:paddingTop="@dimen/paddingtop"
+        android:layout_marginLeft="@dimen/marginleftspesficparentlayout"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/textsize"
+            android:text="Personal Details"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firstname"
+            android:textSize="@dimen/textsize"
+            android:paddingTop="@dimen/paddingtop"
+            android:layout_marginLeft="@dimen/marignlefttextview"
+
+            android:id="@+id/fname"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/middlename"
+            android:textSize="@dimen/textsize"
+            android:paddingTop="@dimen/paddingtop"
+            android:layout_marginLeft="@dimen/marignlefttextview"
+            android:id="@+id/mname"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastname"
+            android:textSize="@dimen/textsize"
+            android:paddingTop="@dimen/paddingtop"
+            android:layout_marginLeft="@dimen/marignlefttextview"
+            android:id="@+id/lname"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Address"
+            android:textSize="@dimen/textsize"
+            android:paddingTop="@dimen/paddingtop"
+            android:layout_marginLeft="@dimen/marignlefttextview"
+            android:id="@+id/address"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Date"
+            android:textSize="@dimen/textsize"
+            android:paddingTop="@dimen/paddingtop"
+            android:layout_marginLeft="@dimen/marignlefttextview"
+            android:id="@+id/date"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Phone"
+            android:textSize="@dimen/textsize"
+            android:paddingTop="@dimen/paddingtop"
+            android:layout_marginLeft="@dimen/marignlefttextview"
+            android:id="@+id/phone"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/City"
+            android:textSize="@dimen/textsize"
+            android:paddingTop="@dimen/paddingtop"
+            android:layout_marginLeft="@dimen/marignlefttextview"
+            android:id="@+id/city"
+
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="@dimen/marignlefttextview"
+                android:paddingTop="@dimen/paddingtop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:text="@string/gender"
+                />
+
+            <TextView
+                android:paddingLeft="@dimen/paddingleft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                android:textSize="@dimen/textsize"
+                />
+
+            <TextView
+                android:layout_marginLeft="@dimen/marignleftoftextview"
+                android:paddingLeft="@dimen/paddingleft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+                android:textSize="@dimen/textsize"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:textAllCaps="false"
+                    android:background="@drawable/stylebuttonthemetwo"
+                    android:id="@+id/add"
+                    android:layout_marginRight="@dimen/marignrightedittext"
+                    android:textColor="#f0f0f0"
+                    android:textSize="@dimen/textsizebutton"
+                    android:layout_width="@dimen/layout_widthofbutton"
+                    android:layout_height="@dimen/layout_heightofbutton"
+                    android:layout_alignParentRight="true"
+                    android:text="Add"/>
+
+                <EditText
+                    android:layout_marginTop="@dimen/maringtopofedittext"
+                    android:textSize="@dimen/textsize"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/paddingleft"
+                    android:background="@drawable/style2"
+                    android:hint="@string/edittext_hint"
+                    android:layout_marginRight="@dimen/marignrightedittext"
+                    android:id="@+id/textin"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/minheightedittext"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/add" />
+            </RelativeLayout>
+
+            <LinearLayout
+
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:visibility="invisible"
+                    android:onClick="create"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/createpdf"
+                    android:background="@drawable/stylebuttonthemetwo"
+                    android:textColor="#f0f0f0"
+                    android:paddingLeft="@dimen/paddingleft"
+                    android:paddingRight="@dimen/paddingright"
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/createpdf"
+                    />
+
+
+                <Button
+                    android:visibility="invisible"
+                    android:layout_marginLeft="@dimen/marginleftofbutton"
+                    android:id="@+id/openpdf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/openpdf"
+                    android:background="@drawable/stylebuttonthemetwo"
+                    android:textColor="#f0f0f0"
+                    android:paddingLeft="@dimen/paddingleft"
+                    android:paddingRight="@dimen/paddingright"
+                    android:textSize="@dimen/textsizebutton"
+                    android:textAllCaps="false"
+                    />
+
+
+            </LinearLayout>
+            <Button
+
+                android:id="@+id/btnremove"
+                android:visibility="invisible"
+                android:paddingLeft="@dimen/paddingleft"
+                android:paddingRight="@dimen/paddingright"
+                android:textSize="@dimen/textsizebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/stylebuttonthemetwo"
+                android:textColor="#f0f0f0"
+                android:textAllCaps="false"
+                android:layout_marginLeft="@dimen/marignlefttextbutton"
+                android:layout_marginTop="@dimen/marigntop"
+                android:layout_marginBottom="@dimen/marginbottom"
+                android:text="Do You Want Remove Edittext And Button Add"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

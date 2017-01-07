@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Recruitment System</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PersonalAppliaction">Personal Appliaction</string>
+    <string name="EmployeementInformation">Employeement Information</string>
+    <string name="Educations">Educations</string>
+    <string name="Experience">Experience</string>
+    <string name="Skills">Skills</string>
+    <string name="Other">Other</string>
+    <string name="firstname">First Name :</string>
+    <string name="middlename">Middle Name :</string>
+    <string name="lastname">Last Name :</string>
+    <string name="Address">Address :</string>
+    <string name="Date">Date :</string>
+    <string name="Phone">Phone :</string>
+    <string name="City">City :</string>
+    <string name="gender">Gender :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="createpdf">Create Pdf </string>
+    <string name="openpdf">Open Pdf</string>
+    <string name="highschool">High School:</string>
+    <string name="undergraduatecollage">Undergraduate Collage:</string>
+    <string name="degreemajor">Degree Major:</string>
+    <string name="Compine">Compine</string>
+</resources>

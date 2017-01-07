@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erp.recruitmentmanagment.recruitmentsystem">
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.erp.recruitmentmanagment.recruitmentsystem.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".personalapplcation.personalappthemetwo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".personalapplcation.personalappthemethree">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".personalapplcation.personalappthemefour">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".personalapplcation.personalappthemefive">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".personalapplcation.PersoanlApp"></activity>
+        <activity android:name=".educations.employeeinformationthemeone"></activity>
+        <activity android:name=".educations.educationthemetwo"></activity>
+        <activity android:name=".educations.educationthemethree"></activity>
+        <activity android:name=".educations.educationthemefour"></activity>
+        <activity android:name=".educations.educationthemefive"></activity>
+
+
+        <activity android:name=".experience.experiencethemeone"></activity>
+        <activity android:name=".experience.experiencethemetwo"></activity>
+        <activity android:name=".experience.experiencethemethree"></activity>
+        <activity android:name=".experience.experiencethemefour"></activity>
+        <activity android:name=".experience.expeiencethemefive"></activity>
+
+
+        <activity android:name=".skills.skillsthemeone"></activity>
+        <activity android:name=".skills.skillsthemetwo"></activity>
+        <activity android:name=".skills.skillsthemethree"></activity>
+        <activity android:name=".skills.skillsthemefour"></activity>
+        <activity android:name=".skills.skillsthemefive"></activity>
+
+        <activity android:name=".other.otherthemefour"></activity>
+        <activity android:name=".other.otherthemeone"></activity>
+        <activity android:name=".other.otherthemethree"></activity>
+        <activity android:name=".other.otherthemetwo"></activity>
+        <activity android:name=".other.otherthemefive"></activity>
+    </application>
+
+</manifest>

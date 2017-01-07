@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/thetwo"
+    tools:context="com.erp.recruitmentmanagment.recruitmentsystem.themesfragment.ThemeTwoFragment">
+
+
+    <Button
+        android:layout_width="@dimen/layout_widthspesficbutton"
+        android:textSize="@dimen/textsizebutton"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebuttonthemetwo"
+        android:text="@string/PersonalAppliaction"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/personalapp"
+
+        />
+
+
+
+    <Button
+        android:layout_width="@dimen/layout_widthspesficbutton"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebuttonthemetwo"
+        android:text="@string/Educations"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/educations"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/layout_widthspesficbutton"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebuttonthemetwo"
+        android:text="@string/Experience"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/experience"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/layout_widthspesficbutton"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebuttonthemetwo"
+        android:text="@string/Skills"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/skills"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/layout_widthspesficbutton"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebuttonthemetwo"
+        android:text="@string/Other"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/other"
+        />
+
+    <Button
+        android:layout_width="@dimen/layout_widthspesficbutton"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebuttonthemetwo"
+        android:text="@string/Compine"
+        android:textSize="@dimen/textsizebutton"
+        android:textAllCaps="false"
+        android:textColor="#f0f0f0"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:layout_marginTop="@dimen/marigntop"
+        android:layout_marginLeft="@dimen/marignleft"
+        android:id="@+id/compine"
+
+        />
+
+</LinearLayout>
